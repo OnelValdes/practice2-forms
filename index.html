@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<HTML LANG = "ES">
+
+<HEAD>
+	<META CHARSET = "UTF-8">
+	<TITLE>LAB5</TITLE>
+	<LINK REL = "shortcut icon" TYPE = "image/x-icon" HREF = "image/Eagle_icon-Image.png">
+	<style> A{text-decoration: none; color: inherit;}</style>
+	<style>@font-face{ font-family: 'f1'; src: url('fonts/OpenSans-Regular.ttf'); format('truetype'); font-weight: normal; font-style: normal; } body{font-family: 'f1';}</style>
+	<style>@font-face{ font-family: 'f2'; src: url('fonts/Lobster-Regular.ttf'); format('truetype'); font-weight: normal; font-style: normal; }</style>
+
+</HEAD>
+
+<!-- Paleta de colores: Color rojo = #e6085b -->
+<!-- Paleta de colores: Color naranja = #f5ae1b -->
+<!-- Paleta de colores: Color blanco = #ccc7c8 -->
+<!-- Paleta de colores: Color negro = #32383f -->
+
+<BODY style = "background-image: url('image/ROOKIE2.png'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;">
+
+	<HEADER style = "display: flex; align-items: center; gap: 20px; padding: 20px;">
+		<IMG SRC = "image/wizard_icon.png" ALT = "Logo" WIDTH = "150" HEIGHT = "150" style = "border: 5px solid #f5ae1b; border-radius: 10px;">
+		<H1 style = "font-family: 'f2'; color: #f5ae1b; font-size: 100px; margin: 0;">Valdes'99</H1>
+	</HEADER>
+
+	<TABLE ALIGN = "CENTER" BGCOLOR = "#32383f" WIDTH = "70%" CELLSPACING = "1" CELLPADDING = "10" style = "margin: 20px auto;">
+		<TR>
+			<TH><A HREF = "https://onelvaldes.github.io/practice1-web/" TARGET = "_blank" TITLE = "LAB4"><FONT COLOR = "#ccc7c8">BLOGS</FONT></A></TH>
+			<TH><A HREF = "https://linktr.ee/brainsauce" TARGET = "_blank" TITLE = "LINKS"><FONT COLOR = "#ccc7c8">ABOUT</FONT></A></TH>
+			<TH><A HREF = "https://github.com/OnelValdes" TARGET = "_blank" TITLE = "GITHUB"><FONT COLOR = "#ccc7c8">GITHUB</FONT></A></TH>
+			<TH><A HREF = "mailto:onel.valdes@up.ac.pa?subjet=Consulta&body=Hola" TARGET = "_blank" TITLE = "CORREO"><FONT COLOR = "#ccc7c8">CONTACT</FONT></A></TH>
+		</TR>
+	</TABLE>
+
+	<DIV style = "padding: 30px 30px; margin: 30px 80px; background: #ccc7c8; border-radius: 10px">
+    		<H1 style = "color: #e6085b; text-align: left; border-bottom: 2px solid #32383f; padding-bottom: 10px;">Formularios en HTML</H1>
+
+    		<DIV style = "display: flex; align-items: center; gap: 20px; margin-top: 20px;">
+			<P style = "color: #32383f; font-size: 20px; line-height: 1.5; flex: 1;">Los formularios son la herramienta fundamental
+			para recolectar información de los usuarios. Permiten interactividad mediante campos de texto, botones y menús de selección,
+			siendo la base de cualquier aplicación web moderna.</P>
+			<P style = "color: #32383f; font-size: 20px; line-height: 1.5; flex: 1;"><B>Son herramientas poderosas para interactuar
+			con los usuarios de un sitio web. Principalmente, proporcionan a los usuarios controles para manipular una interfaz de usuario
+			(UI, por sus siglas en inglés) o ingresar datos cuando sea necesario.</B></P>
+
+			<IMG SRC = "image/survey_icon.png" ALT = "image" WIDTH = "200" HEIGHT = "200" style = "border-radius: 10px;">
+		</DIV>
+
+    		<DIV style = "display: flex; align-items: center; gap: 20px; margin-top: 20px;">
+			<P style = "color: #32383f; font-size: 20px; line-height: 1.5; flex: 1;"><B style = "color: #e6085b;">HTML</B> proporciona una serie
+			de etiquetas, atributos y conceptos muy útiles para la entrada de información por parte del usuario y enviarla a través de una página.
+			Una de las problemáticas que existen a la hora de que el usuario envíe información es la de eliminar la ambigüedad, o conseguir
+			que la información del usuario cumpla ciertas restricciones y pueda utilizarse o procesarse de la mejor forma posteriormente.<BR/>Se conoce como
+			formulario a los mecanismos para enviar información por parte del usuario, a través de unos campos visuales de forma sencilla e
+			intuitiva, que determinan la naturaleza del tipo de información que se va a enviar y como hacerla llegar a otro extremo donde se
+			procesará esa información.<BR/>Para que un usuario pueda introducir información en un formulario, requiere que se le indiquen una serie de
+			campos que le permitan introducir la información de la forma más cómoda y rápida posible. Para ello, debemos saber a priori que tipo de dato le vamos
+			a pedir al usuario (texto, cantidades numéricas, fechas, etc...), y así saber que tipo de campo de entrada de datos es más conveniente utilizar.</P>
+
+			<IMG SRC = "image/registration_icon.gif" ALT = "reg_gif" WIDTH = "400" style = "margin: 10px 10px; border-radius: 10px;">
+		</DIV>
+
+		<H1 style = "color: #e6085b; text-align: left; border-bottom: 2px solid #32383f; padding-bottom: 10px;">Objetivos</H1>
+
+    		<DIV style = "display: flex; align-items: center; gap: 20px; margin-top: 20px; padding-left: 30px;">
+			<LU style = "color: #32383f; font-size: 20px; line-height: 1.5; flex: 1;">
+				<LI>Hacer lo más sencillo posible el proceso de inserción de datos por parte del usuario.</LI>
+				<LI>Intentar que la experiencia de usuario sea lo más agradable y cómoda posible.</LI>
+				<LI>Intentar que los datos introducidos estén en un formato predecible y esperado.</LI>
+				<LI>Reducir los errores al introducir datos en la medida de lo posible.</LI>
+				<LI>Comunicar clara y rápidamente si ocurren errores al introducir datos.</LI>
+			</LU>
+		</DIV>
+	</DIV>
+
+	<DIV style = "display: flex; justify-content: center; align-items: center;">
+		<FORM style = "background: #32383f; padding: 30px; margin: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 400px;">
+        		<H1 style = "text-align: center; color: #f5ae1b">User Registration</H1>
+
+			<DIV style = "margin-bottom: 15px;">
+				<LABEL STYLE = "color: #ccc7c8; display: block; margin-bottom: 5px;">Enter your username</LABEL>
+				<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            				<IMG SRC = "image/user_icon.png" ALT = "user" WIDHT = "40" HEIGHT = "40">
+            				<INPUT TYPE = "text" PLACEHOLDER = "Name User" style = "flex: 1; padding: 10px; box-sizing: border-box;">
+				</DIV>
+			</DIV>
+
+			<DIV style = "margin-bottom: 15px;">
+				<LABEL STYLE = "color: #ccc7c8; display: block; margin-bottom: 5px;">Enter your email</LABEL>
+				<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            				<IMG SRC = "image/user_icon.png" ALT = "user" WIDHT = "40" HEIGHT = "40">
+            				<INPUT TYPE = "email" PLACEHOLDER = "Email" MAXLENGTH = "30" NAME = "email" ID = "email" style = "flex: 1; padding: 10px; box-sizing: border-box;">
+				</DIV>
+			</DIV>
+
+			<DIV style = "margin-bottom: 15px;">
+				<LABEL STYLE = "color: #ccc7c8; display: block; margin-bottom: 5px;">Enter your password</LABEL>
+				<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            				<IMG SRC = "image/user_icon.png" ALT = "user" WIDHT = "40" HEIGHT = "40">
+            				<INPUT TYPE = "password" PLACEHOLDER = "Password" MAXLENGTH = "20" NAME = "pass" ID = "pass"
+					style = "flex: 1; padding: 10px; box-sizing: border-box;">
+				</DIV>
+			</DIV>
+
+			<DIV style = "margin-bottom: 15px;">
+				<LABEL style = "color: #ccc7c8; display: block; margin-bottom: 5px;">Enter your gender</LABEL>
+				<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            				<IMG SRC = "image/user_icon.png" ALT = "user" WIDHT = "40" HEIGHT = "40">
+  					<SELECT style = "flex: 1; padding: 10px; font-size: 16px; color: #32383f; border-radius: 5px; border: 1px solid #555; background-color: #f5ae1b;>
+					<OPTION VALUE = "None">None</OPTION>
+					<OPTION VALUE = "None">None</OPTION>
+					<OPTION VALUE = "Male">Male</OPTION>
+					<OPTION VALUE = "Female">Female</OPTION>
+					</SELECT>
+				</DIV>
+			</DIV>
+			
+			<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+				<INPUT TYPE = "checkbox" name = "check" id = "check">
+				<LABEL FOR = "check" style = "color: #ccc7c8;">Accept the terms and conditions</label>
+			</DIV>
+			
+			<DIV style = "display: flex; justify-content: center; width: 100%; margin-top: 20px;">
+        			<BUTTON style = "width: 50%; padding: 10px; background: #e6085b; color: #32383f; border-radius: 10px; cursor: pointer;
+				font-size: 20px; font-weight: bold">Send</BUTTON>
+			</DIV>
+		</FORM>
+	</DIV>
+
+	<DIV style = "display: flex; justify-content: center; align-items: center;">
+		<FORM style = "background-image: url('image/ROOKIE2.png'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
+		padding: 30px; margin: 50px; border-radius: 10px; box-shadow: 100px 50px 50px rgba(0,0,0,0.1); width: 700px;">
+        		<H1 style = "text-align: center; color: #32383f">Send this to contact us</H1>
+
+			<DIV style = "margin-bottom: 15px;">
+				<LABEL STYLE = "color: #32383f; display: block; margin-bottom: 5px;"><B>Subject area</B></LABEL>
+				<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            				<IMG SRC = "image/user_icon.png" ALT = "user" WIDHT = "40" HEIGHT = "40">
+            				<INPUT TYPE = "text" PLACEHOLDER = "Enter subject" style = "flex: 1; padding: 10px; box-sizing: border-box;">
+				</DIV>
+			</DIV>
+
+			<DIV style = "margin-bottom: 15px;">
+				<LABEL STYLE = "color: #32383f; display: block; margin-bottom: 5px;"><B>Message</B></LABEL>
+				<DIV style = "display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            				<IMG SRC = "image/user_icon.png" ALT = "user" WIDHT = "40" HEIGHT = "40">
+            				<TEXTAREA PLACEHOLDER = "Enter message..." style = "width: 100%; height: 100px; resize: none; padding: 10px;
+					box-sizing: border-box; border: 1px solid #32383f; border-radius: 5px;"></TEXTAREA>
+				</DIV>
+			</DIV>
+			
+			<DIV style = "display: flex; justify-content: center; width: 100%; margin-top: 20px;">
+        			<BUTTON style = "width: 50%; padding: 10px; background: #e6085b; color: #32383f; border-radius: 10px; cursor: pointer;
+				font-size: 20px; font-weight: bold">Send</BUTTON>
+			</DIV>
+		</FORM>
+	</DIV>
+
+	<FOOTER style = "background-color: #32383f; padding: 10px;">
+		<DIV ALIGN = "CENTER"><FONT COLOR = "#ccc7c8">
+			<P><B>Copyright @ 2026 | www.valdes99.com | Lic. Onel Valdes</B></P>
+			<P><A HREF = "https://www.docusign.com/es-mx/blog/terminos-y-condiciones" TITLE = "VER" TARGET = "_BLANK">Terminos de condiciones</A></P>
+		</FONT></DIV>
+
+		<H1 ALIGN = "CENTER" style = "font-family: 'f2';"><FONT COLOR = "#ccc7c8" SIZE = "7">Valdes '99</FONT></H1>
+	</FOOTER>
+</BODY>
+</HTML>
